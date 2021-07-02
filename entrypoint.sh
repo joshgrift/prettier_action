@@ -18,6 +18,9 @@ EOF
 
     git config --global user.email "actions@github.com"
     git config --global user.name "GitHub Action"
+    
+    # Setup git LFS
+    git lfs install
 }
 
 # Checks if any files are changed
